@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BirdsBot – Admin Panel</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f5f7fb; margin:0; }
+    header { background:#ffffff; border-bottom:1px solid #e6e8ef; padding:18px 22px; }
+    header h1 { margin:0; font-size:20px; }
+    header p { margin:6px 0 0; color:#666; font-size:13px; }
+    main { padding:22px; max-width: 1000px; margin: 0 auto; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap:16px; margin-top:16px; }
+    .card { background:#fff; border:1px solid #e6e8ef; border-radius:12px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
+    .card h2 { margin:0 0 10px; font-size:16px; }
+    .card p { margin:0 0 14px; color:#555; font-size:13px; line-height:1.4; }
+    .btn { display:inline-block; padding:10px 12px; border-radius:10px; border:1px solid #2b6cb0;
+           color:#fff; background:#2b6cb0; text-decoration:none; font-size:13px; }
+    .btn.secondary { background:#fff; color:#2b6cb0; }
+    footer { padding:18px 22px; color:#777; font-size:12px; text-align:center; }
+    code { background:#eef2ff; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BirdsBot – Central Management</h1>
+    <p>Quick actions for service-provider • Loaded at: {{ now.strftime("%Y-%m-%d %H:%M:%S") }}</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Actions</h2>
+      <p>
+        This page provides actionable UI elements to access management features like
+        <b>Edit questions/answers</b>, <b>App logs</b>, <b>List users</b>, <b>User activity</b>.
+      </p>
+      <p>Base URL: <code>/admin</code></p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Edit questions / answers</h2>
+        <p>Manage the Q&amp;A knowledge base (list, add, remove).</p>
+        <a class="btn" href="/admin/questions">Open Q&amp;A Manager</a>
+      </div>
+
+      <div class="card">
+        <h2>App logs</h2>
+        <p>View application logs and recent events.</p>
+        <a class="btn" href="/admin/logs">Open Logs</a>
+      </div>
+
+      <div class="card">
+        <h2>List users</h2>
+        <p>Display registered users (placeholder in this project).</p>
+        <a class="btn" href="/admin/users">Open Users</a>
+      </div>
+
+      <div class="card">
+        <h2>User activity</h2>
+        <p>See recent activity and usage metrics (placeholder).</p>
+        <a class="btn" href="/admin/activity">Open Activity</a>
+      </div>
+    </div>
+
+    <div style="margin-top:16px" class="card">
+      <h2>Notes</h2>
+      <p>
+        If you see a white page, check that file <code>templates/admin_home.html</code>
+        exists and that you opened <code>http://127.0.0.1:5000/admin</code>.
+      </p>
+      <a class="btn secondary" href="/admin">Refresh</a>
+    </div>
+  </main>
+
+  <footer>
+    BirdsBot Admin • Development server
+  </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is the first and most well-known cryptocurrency?",
+        "options": ["A) Ethereum", "B) Bitcoin", "C) Litecoin", "D) Ripple"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the technology behind cryptocurrencies called?",
+        "options": ["A) Cloud Computing", "B) Blockchain", "C) Artificial Intelligence", "D) Quantum Computing"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the process of creating new cryptocurrency coins called?",
+        "options": ["A) Trading", "B) Mining", "C) Investing", "D) Staking"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the smallest unit of Bitcoin called?",
+        "options": ["A) Bit", "B) Satoshi", "C) Coin", "D) Token"],
+        "correct": "B"
+    },
+    {
+        "question": "What does 'HODL' mean in cryptocurrency slang?",
+        "options": ["A) Hold On for Dear Life", "B) High Order Digital Ledger", "C) Hold On, Don't Lose", "D) High Output Digital Link"],
+        "correct": "A"
+    },
+    {
+        "question": "What is a cryptocurrency wallet used for?",
+        "options": ["A) Mining coins", "B) Storing and managing cryptocurrency", "C) Trading stocks", "D) Creating new coins"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the maximum supply of Bitcoin?",
+        "options": ["A) 10 million", "B) 50 million", "C) 21 million", "D) Unlimited"],
+        "correct": "C"
+    },
+    {
+        "question": "What does 'DeFi' stand for in cryptocurrency?",
+        "options": ["A) Digital Finance", "B) Decentralized Finance", "C) Direct Finance", "D) Dynamic Finance"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the second-largest cryptocurrency by market cap?",
+        "options": ["A) Bitcoin Cash", "B) Litecoin", "C) Ethereum", "D) Cardano"],
+        "correct": "C"
+    },
+    {
+        "question": "What is a 'smart contract' in cryptocurrency?",
+        "options": ["A) A legal document", "B) Self-executing code on a blockchain", "C) A trading agreement", "D) A mining contract"],
+        "correct": "B"
+    },
+    {
+        "question": "What does 'NFT' stand for?",
+        "options": ["A) New Financial Technology", "B) Non-Fungible Token", "C) Network File Transfer", "D) National Finance Trust"],
+        "correct": "B"
+    },
+    {
+        "question": "What is 'gas' in the Ethereum network?",
+        "options": ["A) A type of cryptocurrency", "B) The fee paid for transactions", "C) A mining reward", "D) A storage unit"],
+        "correct": "B"
+    },
+    {
+        "question": "What is the term for a sudden drop in cryptocurrency prices?",
+        "options": ["A) Pump", "B) Dump", "C) Crash", "D) Dip"],
+        "correct": "B"
+    },
+    {
+        "question": "What is 'staking' in cryptocurrency?",
+        "options": ["A) Selling coins quickly", "B) Holding coins to support network operations and earn rewards", "C) Mining new coins", "D) Trading between exchanges"],
+        "correct": "B"
+    },
+    {
+        "question": "What does 'whale' refer to in cryptocurrency?",
+        "options": ["A) A type of mining hardware", "B) Someone who owns a large amount of cryptocurrency", "C) A blockchain protocol", "D) A trading algorithm"],
+        "correct": "B"
+    }
+]
